@@ -1,0 +1,49 @@
+{% include 'index.html' %}
+
+<body>
+    {% include 'header.html' %}
+    <main class="main-div">
+        <!-- <nav>
+            <span class="font-cursive">Adivinhe as músicas da <span
+                    style="color: deeppink;"><i>🌟diva🌟</i></span></span>
+        </nav> -->
+
+        <button class="button-main" onclick="window.location.href='/verse'">
+            <span class="font-cursive" style="font-size: 30px; color: magenta;">
+                Verso
+            </span>
+            <br>
+            <span>
+                Adivinhe a música pelo verso
+            </span>
+        </button>
+
+        <button class="button-main" onclick="">
+            
+            <span class="font-cursive" style="font-size: 30px; color: magenta;">
+                Clipe
+            </span>
+            <br>
+            <span>
+                Adivinhe a música através de um clipe
+            </span>
+
+        </button>
+        
+        <button class="button-main">
+
+            <span class="font-cursive" style="font-size: 30px; color: magenta;">
+                Olho
+            </span>
+            <br>
+            <span>
+                Adivinhe a música pelo olho da diva
+            </span>
+
+        </button>
+
+    </main>
+    {% include 'footer.html' %}
+</body>
+
+</html>
