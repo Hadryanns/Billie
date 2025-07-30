@@ -103,3 +103,20 @@ nav{
     height: 10%;
     /* background-color: red; */
 }
+
+.main-div-verse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%
+}
+
+.box-commun{
+    width: 20%;
+    background-color: black;
+    padding: 30px;
+    border: solid 2px greenyellow;
+    border-radius: 15px;
+    margin: 10px;
+}
